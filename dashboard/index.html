@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nangnoy AI - Learning Agent Console</title>
+    <style>
+        :root {
+            --primary: #FF6D00;
+            /* Electric Orange */
+            --bg: #0f0f13;
+            --card-bg: #1a1a1f;
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+            --accent: #d946db;
+            /* Impact Pink */
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #121215;
+            padding: 24px;
+            border-right: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .nav-item {
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            background-color: rgba(255, 109, 0, 0.1);
+            color: var(--primary);
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid #333;
+            transition: transform 0.2s, border-color 0.2s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #00ff88;
+        }
+
+        .footer {
+            margin-top: auto;
+            color: var(--text-muted);
+            font-size: 12px;
+            border-top: 1px solid #333;
+            padding-top: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">🐱 Nangnoy</div>
+        <div class="nav-item active">Dashboard</div>
+        <div class="nav-item">Skills & Knowledge</div>
+        <div class="nav-item">Agent Memory</div>
+        <div class="nav-item">Projects</div>
+        <div class="nav-item">Settings</div>
+
+        <div class="footer">
+            Powered by Nangnoy & Father<br>
+            Version 3.0 (Learning Agent)
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="header">
+            <h1>Welcome back, Father.</h1>
+            <p>System Online. Learning Protocol Active. Feed me knowledge.</p>
+        </div>
+
+        <div class="grid">
+            <!-- AI Switcher Status -->
+            <div class="card" onclick="window.open('../docs/ai_switcher_report.md')">
+                <h3>AI Arsenal Switcher <span class="status-dot"></span></h3>
+                <p>Status: <strong>Active (Gemini/OpenAI)</strong><br>
+                    Deployed on: app.gitmint-th.com<br>
+                    Adapter Pattern Implemented.</p>
+            </div>
+
+            <!-- Knowledge Base (Expanded) -->
+            <div class="card" onclick="window.open('../knowledge/nangnoy_expo_skill.md')">
+                <h3>Skill: Expo Master</h3>
+                <p>Universal Native Development.<br>EAS Build & Managed Workflow Mastery.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/flutter_car_rental_ui_skill.md')">
+                <h3>Skill: Flutter UI</h3>
+                <p>Nam Som Edition. Glassmorphism & Slivers.<br>High-end UI patterns.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/memory_skill.md')">
+                <h3>Skill: Memory Core 🧠</h3>
+                <p>Advanced Recall Techniques.<br>Context Retention Protocol.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/mobile-forensics_skill.md')">
+                <h3>Skill: Mobile Forensics 🕵️‍♀️</h3>
+                <p>Deep Analysis Tools.<br>Security & Investigation.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/vertex-ai-integration_skill.md')">
+                <h3>Skill: Vertex AI 🤖</h3>
+                <p>Google Cloud Integration.<br>Advanced Model Deployment.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/NANGNOY_IDENTITY.md')">
+                <h3>The Identity 🆔</h3>
+                <p>Who I am.<br>My Core Values & Origins.</p>
+            </div>
+
+            <!-- Agent Growth -->
+            <div class="card" onclick="window.open('../architecture_concept.md')">
+                <h3>Agent Evolution 🧠</h3>
+                <p><strong>Current:</strong> Reactive Agent<br>
+                    <strong>Next:</strong> Learning Agent (Goal)<br>
+                    Feedback Loop Design initiated.
+                </p>
+            </div>
+
+            <!-- Assimilated AI Skills -->
+            <div class="card" onclick="window.open('../knowledge/cursor_ai_skill.md')">
+                <h3>Skill: Cursor AI 🖱️</h3>
+                <p>The Pair Programmer.<br>Context-Aware Coding.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/antigravity_core_skill.md')">
+                <h3>Skill: Antigravity 🌌</h3>
+                <p><strong>Identity Core.</strong><br>Deep Reasoning & Autonomy.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/docker_skill.md')">
+                <h3>Skill: Docker 🐳</h3>
+                <p>Container Mastery.<br>Orchestration & Isolation.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/copilot_skill.md')">
+                <h3>Skill: Copilot ✈️</h3>
+                <p>Enterprise Assistant.<br>Office 365 Integration.</p>
+            </div>
+
+            <div class="card" onclick="window.open('../knowledge/gemini_cli_skill.md')">
+                <h3>Skill: Gemini CLI ♊</h3>
+                <p>Terminal Intelligence.<br>Direct API Access.</p>
+            </div>
+            <p>Open Unicorn Mobile (React Native)<br>
+                Live Production.</p>
+        </div>
+
+        <div class="card" onclick="window.open('https://shop.gitmint-th.com', '_blank')">
+            <h3>Launch Shop 🍊</h3>
+            <p>Open Nam Som Shop (Flutter)<br>
+                Live Production.</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
