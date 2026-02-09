@@ -55,6 +55,7 @@ structured-data-extractor_skill.md
 supabase-auth_skill.md            
 template_skill.md                 
 theme-factory_skill.md            
+uxui_copilot_inspiration_skill.md 
 vertex-ai-integration_skill.md    
 vscode_skill.md                   
 web-artifacts-builder_skill.md    
