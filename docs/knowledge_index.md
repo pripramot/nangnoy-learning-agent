@@ -22,6 +22,7 @@ favicon_skill.md
 figma-realcontent_skill.md        
 flutter_car_rental_ui_skill.md    
 frontend-design_skill.md          
+gemini_cli_skill.md               
 gitbook-integration_skill.md      
 internal-comms_skill.md           
 KI_GOOGLE_MAPS.md                 
