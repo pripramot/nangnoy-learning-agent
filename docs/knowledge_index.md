@@ -43,6 +43,7 @@ nangnoy-persona_skill.md
 NANGNOY_EXPORT_README.md          
 nangnoy_expo_skill.md             
 NANGNOY_IDENTITY.md               
+NANGNOY_MEMORY_SNAPSHOT_PRE_IDE.md
 notebooklm-mcp_skill.md           
 pdf_skill.md                      
 policy_and_skills_consolidation.md
