@@ -40,6 +40,7 @@ nangnoy-persona_skill.md
 NANGNOY_EXPORT_README.md          
 nangnoy_expo_skill.md             
 NANGNOY_IDENTITY.md               
+notebooklm-mcp_skill.md           
 pdf_skill.md                      
 policy_and_skills_consolidation.md
 pptx_skill.md                     
