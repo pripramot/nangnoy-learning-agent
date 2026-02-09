@@ -24,6 +24,7 @@ flutter_car_rental_ui_skill.md
 frontend-design_skill.md          
 gemini_cli_skill.md               
 gitbook-integration_skill.md      
+google-workspace-mcp_skill.md     
 internal-comms_skill.md           
 KI_GOOGLE_MAPS.md                 
 KI_REALTIME_DASHBOARD.md          
