@@ -1,0 +1,27 @@
+# System Files
+thumbs.db
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.local
+secrets/
+impact_keys.json
+
+# IDEs
+.vscode/
+.idea/
+
+# Build Outputs
+dist/
+build/
+coverage/
+
+# Nangnoy Specific
+temp/
+scratch/
