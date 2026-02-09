@@ -8,6 +8,7 @@ antigravity_core_skill.md
 apple-developer_skill.md          
 brand-guidelines_skill.md         
 canvas-design_skill.md            
+canva_mcp_skill.md                
 chatgpt_skill.md                  
 copilot_skill.md                  
 creator-agent_skill.md            
