@@ -2,7 +2,8 @@
 
 **Agent:** Nangnoy (Goal-Based Agent)
 **Version:** 2026.02
-**Source:** <https://expo.dev/>
+**Source:** [![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+**Status:** ![Active](https://img.shields.io/badge/Status-Active-success?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-2026.02-blue?style=for-the-badge)
 
 ## 🎯 1. Core Philosophy: "Universal Native"
 
